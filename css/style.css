@@ -133,16 +133,11 @@ img, video, object {
   margin-top: 0.5rem;
 }
 
-.gnav .inner li {
-  display: inline-block;
-  width: 30%;
-  text-align: center;
-}
-
 .gnav .inner a {
   color: #444;
   font-size: 0.9em;
   padding: 0.2em;
+  font-weight: bold;
 }
 
 .gnav .gnav-li {
@@ -151,6 +146,11 @@ img, video, object {
   vertical-align: middle;
   margin-right: 0.3em;
   margin-bottom: 0.3em;
+}
+
+.gnav .kiseki-li a {
+ margin-left: 1.0rem;
+ font-weight: normal;
 }
 
 /*--------------------------------
@@ -298,17 +298,17 @@ img, video, object {
   display: inline;
   position: relative;
   padding: 0.5em 0.6em 0.3em;
-  background: #FFF98C;
+  background: #C9F2A2;
   border-radius: 10px;
 }
 
 #section04 h5:after {
   position: absolute;
   content: '';
-  top: 100%;
+  top: 98%;
   left: 15px;
   border: 8px solid transparent;
-  border-top: 8px solid #FFF98C;
+  border-top: 8px solid #C9F2A2;
   width: 0;
   height: 0;
 }
