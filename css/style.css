@@ -297,7 +297,7 @@ img, video, object {
 #section04 h5 {
   display: inline;
   position: relative;
-  padding: 0.5em 0.6em 0.3em;
+  padding: 0.5em 0.6em 0.3em 0.6rem;
   background: #C9F2A2;
   border-radius: 10px;
 }
